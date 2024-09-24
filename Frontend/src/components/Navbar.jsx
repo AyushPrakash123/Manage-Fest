@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { GiHamburgerMenu } from "react-icons/gi";
-
+import logo from "../assets/ManageFest2.png";
 const Navbar = () => {
   const [show, setShow] = useState(false);
   return (
     <nav>
-      <div className="logo">EVENT's</div>
+      <div className="logo">
+        <img src={logo} alt="Event Logo" style={{ height: "150px", width: "auto" }} />
+      </div>
       <div className={show ? "navLinks showmenu" : "navLinks"}>
         <div className="links">
           <Link to="hero" spy={true} smooth={true} duration={500}>

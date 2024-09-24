@@ -1,13 +1,10 @@
 import React from "react";
+import logo from "../assets/ManageFest1.png";
 
 const Footer = () => {
   return (
     <footer>
       <div className="banner">
-        <div className="title">
-          <h1>KING's</h1>
-          <p>Events and Weddings</p>
-        </div>
         <div className="tag">
           <label>News Letter</label>
           <div>
@@ -15,6 +12,10 @@ const Footer = () => {
             <button>Subscribe</button>
           </div>
           <p>Sign up with your email address to receice news and updates!</p>
+          <div className="title">
+          <img src={logo} alt="Event Logo" style={{ height: "150px", width: "auto" }} />
+        </div>
+        <p> ©2024, All Rights Reserved </p>
         </div>
       </div>
     </footer>

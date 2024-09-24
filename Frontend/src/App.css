@@ -299,6 +299,7 @@ footer {
   display: flex;
   justify-content: center;
   color: #fff;
+  text-align: center;
 }
 footer .banner {
   max-width: 750px;
@@ -307,13 +308,14 @@ footer .banner {
   align-items: center;
 }
 footer .banner .title {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer .banner .title h1 {
-  font-size: 40px;
-  font-family: "Cormorant Garamond", serif;
-  letter-spacing: 3px;
-  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer .banner .title p {
   color: #a2783a;
@@ -323,6 +325,7 @@ footer .banner .title p {
 footer .banner .tag {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 15px;
   margin: 20px 0;
 }
